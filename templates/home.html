@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> WELCOME TO MY SITE </h1>
+
+<h3> Hi, This is a sample project for job references, In here I have used Django for backend, and Postgresql
+for database, Also it has three level of user authentication.
+1- Super user (super user can list everyone in the database)
+2- Teacher (Teacher can only list students)
+3- Student (They don't have any privilages here.)</h3>
+
+<h2> Define your Authentication from the options given below. </h2>
+<ol> 
+<li> <a href="teacher"> Teacher </a> </li>
+<li> <a href="student"> Student </a>
+  </ol>
+
+{% endblock %}
